@@ -12,7 +12,6 @@ body {
 }
 .outter {
     min-width: 30vw;
-    min-height: 30vh;
     margin: 1rem;
     border: 1px solid lightgray ;
     border-radius: 10px;
