@@ -1,7 +1,73 @@
-.container{
-    max-width: 30vw;
-    padding: 0.5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0.5rem;
+html{
+    box-sizing: border-box;
+    margin: 0;
+    
 }
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.outter {
+    min-width: 30vw;
+    min-height: 30vh;
+    margin: 1rem;
+    border: 1px solid lightgray ;
+    border-radius: 10px;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem lightgray;
+}
+#equation{
+    font-size: 1rem;
+    width: 13rem;
+    height: 3vh;
+    margin: 0.5rem;
+    background-color: cyan;
+}
+#clear{
+    padding: 0.2rem 1.5rem;
+    background-color: rgb(241, 93, 93);
+    color: white;
+    border: 1px solid black;
+}
+.container {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+.container button{
+    padding: 0.5rem .9rem;
+   
+}
+button:hover {
+    transform: rotate(360deg);
+    transform: scale(1.023);
+    border-color: darkgray;
+  }
+.numbers {
+    font-size: 2rem;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius:5px ;
+}
+.operations{
+    background-color: rgb(224, 190, 39);
+    color: white;
+}
+.dot{
+    font-size: 2rem;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius:5px ;
+    color: black;
+}
+#equal{
+background-color: #007BFF;
+border: 1px solid lightgrey;
+color: white;
+font-size: 2rem;
+}
+
